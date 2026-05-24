@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 25px;
+  box-shadow: 0px 3px 8px gray;
+  margin-bottom: 3px;
+}
+
+.navitems {
+  display: flex;
+
+  gap: 20px;
+
+  li {
+    list-style: none;
+  }
+}
+
+
+
+.card-container {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 30px;
+
+  padding: 50px 30px;
+}
+
+.mycard {
+  background-color: #1c335f;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: sans-serif;
+
+  i {
+    font-size: 45px;
+    margin-bottom: 25px;
+    color: #ffce29;
+  }
+}
+
+#hero-section {
+  background: url("./img2.jpg") no-repeat center center / cover ; overflow: hidden;
+  padding: 250px 50px;
+  color: white;
+
+  h1 {
+    
+    font-size: 25px;
+  }
+}
+
+.line {
+  height: 4px;
+  width: 550px;
+  background-color: white;
+  margin: 10px 0px;
+}
+
+#about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 70px 50px;
+  background: url("./img1.jpg") no-repeat center center/ cover ;
+
+}
+
+.about-image {
+  width: 50%;
+  position: relative;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+}
+.about-article {
+  width: 50%;
+
+  h1 {
+    font-size: 25px;
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+  }
+
+  p {
+    margin: 25px 0px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: black;
+    font-style: bold;
+  }
+}
+.about-article h1::after {
+  content: "";
+  background-color: #f4bd01;
+  position: absolute;
+  top: 50%;
+  left: 105%;
+  height: 3px;
+  width: 100px;
+}
+
+.about-card-box {
+  position: absolute;
+  height: 100%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+
+.about-card {
+  width: 100%;
+  padding: 25px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  i {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+#first-about {
+  background-color: #f4bd01;
+}
+
+.about-card:hover {
+  background-color: #f4bd01;
+}
+
+#service-section {
+  background: url("https://www.hanumanttechnology.com/images/module-bg2.jpg")
+    no-repeat center center/ cover;
+
+  color: white;
+  text-align: center;
+  padding: 80px 50px;
+
+  p {
+    margin: 20px 0px;
+  }
+}
+
+.service-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  a {
+    border: 2px solid #21a7d0;
+    color: #21a7d0;
+    padding: 10px 25px;
+  }
+}
+
+#it-services {
+  padding: 80px 50px;
+  background: url("https://www.hanumanttechnology.com/images/featured-service-bg.png")
+    no-repeat center fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.service-card-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 25px;
+}
+
+.service-card {
+  width: 28%;
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgb(197, 197, 197);
+  i {
+    font-size: 25px;
+  }
+}
+.service-card div {
+  background-color: #ffbe00;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 50%;
+  padding: 40px;
+  margin-bottom: 25px;
+}
+
+.sevensec{
+    display: flex;
+    gap: 50px;
+    padding: 70px;
+    justify-content: center;
+}
+#feature{
+    background-color: #1C335F;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+    h1{
+        color: white;
+    }
+    i{
+        color: orange;
+        font-size: 50px;
+        margin: 20px;
+       
+    }
+
+}
+
+.ninesec{
+    background-image: url(https://www.hanumanttechnology.com/images/module-bg1.jpg);
+    background-position: center;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    gap: 30px;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+#likes{
+    padding: 90px;
+    h1{
+        color: orange;
+        font-size: 55px;
+        margin: 20px;
+    }
+   h2{
+color: white;
+   }
+}
+.tensec{
+    text-align: center;
+    height: 260px;
+    padding: 50px;
+    h1{
+        color: black;
+        margin: 20px;
+
+    }
+    p{
+         color: black;
+        margin: 20px;
+
+    }
+    input{
+        height: 30px;
+        border-radius: 10px;
+        border: 1px;
+
+    }
+    button{
+        background-color: orange;
+        color: white;
+        padding: 10px;
+        border: 0px;
+        border-radius: 10px;
+
+
+    }
+}
+
+.whatsapp{
+    position: fixed;
+    left: 20px;
+    bottom: 50px;
+}
+
+.call{
+
+    background-color: #3A5243;
+    padding: 10px 15px;
+     border-radius: 20px;
+    color: white;
+    position: fixed;
+   right: 20px;
+   bottom: 80px;
+}
+
+.enquiry{
+    background-color: #3A5243 ;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+    color: white;
+    position:fixed;
+    right: 20px;
+   bottom: 30px;
+    
+}
